@@ -5,7 +5,7 @@ namespace ASP_FinalExam_Net6.Models
 {
     public class Employee
     {
-        public int Id { get; set; }
+        public int EmployeeId { get; set; }
         [Required, MaxLength(100)]
         public string Name { get; set; }
         public bool IsManager { get; set; }
